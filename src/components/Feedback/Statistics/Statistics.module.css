@@ -1,0 +1,30 @@
+li{
+    list-style: none;
+}
+
+.list{
+    justify-content: space-between;
+    display: flex;
+}
+.item:not(:last-child){
+    margin-right: 20px;
+}
+
+.item{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 30px;
+    line-height: 16px;
+    color: #2196F3;
+}
+
+
+
+.item_text{
+    font-family: Roboto;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 16px;
+    color: rgb(245, 140, 12);
+}
+
